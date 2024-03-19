@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+
+body{
+    background-color: #000000;
+}
+
+
+.imagenes {
+    width: 100vw; 
+    height: auto;
+}
+
+.imagenSection {
+    width: 550px; 
+    height: auto;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    flex-direction: column;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.containerInterno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    flex-direction: row-reverse;
+    max-width: 1100px;
+    margin: 0 auto;
+/*     margin-bottom: 60px;   */
+    /* margin-top: 40px; */
+    height: auto;
+}
+
+
+
+.title {
+    font-family: 'Trade Gothic LT Pro', sans-serif;
+    font-size: 38px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+
+.subtitleIzquierdo {
+    font-family: 'Trade Gothic LT Pro', sans-serif;
+    font-size: 38px;
+    font-weight: 900;
+    color: white;
+    text-align: right;
+    margin: 0px;
+}
+
+.subtitleDerecho {
+    font-family: 'Trade Gothic LT Pro', sans-serif;
+    font-size: 38px;
+    font-weight: 900;
+    color: white;
+    text-align: left;
+    margin: 0px;
+}
+
+
+.paragraphs {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    line-height: 1.6;
+}
+
+
+.paragraphsIzquierdo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: right;
+    margin: 0px;
+    line-height: 1.6;
+}
+
+
+.paragraphsDerecho {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: left;
+    margin: 0px;
+    line-height: 1.6;
+}
+
+
+.tituloIzquierdo {
+    margin-right: 65px;
+}
+
+.tituloDerecho {
+    margin-left: 65px;
+}
+
+
+.resaltado {
+    color: #FFA900; 
+  }
