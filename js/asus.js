@@ -31,7 +31,7 @@ imagenCaracteristicasSiete.src = "./css/assets/caracteristicassiete.jpg" */
 // Definir un array con los IDs de las imágenes
 const imagenes = [
     "portada",
-    "seccionUno",
+    "seccionuno",
     "caracteristicasuno",
     "caracteristicasdos",
     "caracteristicastres",
