@@ -1,32 +1,3 @@
-/* 
-const imagenPortada = document.getElementById("imagenPortada")
-imagenPortada.src = "./css/assets/portada.jpg"
-
-const imagenSeccionUno = document.getElementById("imagenSeccionUno")
-imagenSeccionUno.src = "./css/assets/seccionUno.jpg"
-
-const imagenCaracteristicasUno = document.getElementById("imagenCaracteristicasUno")
-imagenCaracteristicasUno.src = "./css/assets/caracteristicasuno.jpg"
-
-const imagenCaracteristicasDos = document.getElementById("imagenCaracteristicasDos")
-imagenCaracteristicasDos.src = "./css/assets/caracteristicasdos.jpg"
-
-const imagenCaracteristicasTres = document.getElementById("imagenCaracteristicasTres")
-imagenCaracteristicasTres.src = "./css/assets/caracteristicastres.jpg"
-
-const imagenCaracteristicasCuatro = document.getElementById("imagenCaracteristicasCuatro")
-imagenCaracteristicasCuatro.src = "./css/assets/caracteristicascuatro.jpg"
-
-const imagenCaracteristicasCinco = document.getElementById("imagenCaracteristicasCinco")
-imagenCaracteristicasCinco.src = "./css/assets/caracteristicascinco.jpg"
-
-const imagenCaracteristicasSeis = document.getElementById("imagenCaracteristicasSeis")
-imagenCaracteristicasSeis.src = "./css/assets/caracteristicasseis.jpg"
-
-const imagenCaracteristicasSiete = document.getElementById("imagenCaracteristicasSiete")
-imagenCaracteristicasSiete.src = "./css/assets/caracteristicassiete.jpg" */
-
-
 
 // Definir un array con los IDs de las imágenes
 const imagenes = [
@@ -47,3 +18,9 @@ const imagenes = [
     const imagen = document.getElementById(id);
     imagen.src = `./css/assets/${id.toLowerCase()}.jpg`;
   });
+
+
+var imagenesPc = document.querySelectorAll('.imagenpc');
+var iconosUno = document.querySelectorAll('.iconouno');
+var iconosDos = document.querySelectorAll('.iconodos');
+var iconosTres = document.querySelectorAll('.iconotres');
