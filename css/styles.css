@@ -22,13 +22,21 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 15vh;
+/*     height: 15vh; */
     flex-direction: column;
     max-width: 1100px;
     margin: 0 auto;
     margin-bottom: 60px;
     margin-top: 40px;
 }
+
+
+
+
+
+
+
+
 
 .containerInterno {
     display: flex;
@@ -53,6 +61,7 @@ body{
     text-align: center;
     margin: 10px;
 }
+
 
 
 .subtitleIzquierdo {
@@ -84,6 +93,17 @@ body{
 }
 
 
+.paragraphs-dos {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0px;
+    line-height: 1.6;
+    
+}
+
+
 .paragraphsIzquierdo {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -104,6 +124,8 @@ body{
 }
 
 
+
+
 .tituloIzquierdo {
     margin-right: 65px;
     margin-top: 30px;
@@ -121,6 +143,7 @@ body{
     color: #FFA900; 
     line-height: 0.5; /* interlineado */
   }
+
 
 
 
@@ -177,7 +200,7 @@ body{
     .paragraphsIzquierdo, .paragraphsDerecho, .paragraphs {
         flex-direction: column;
         text-align: left;
-        font-size: 10px;
+        font-size: 14px;
     }
 }
 
@@ -209,3 +232,109 @@ body{
         order: 1;
     }
 }
+
+
+
+
+.container-general {
+    background-color: white;
+}
+
+
+.container-blanco {
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 45px 0 0 0;
+}
+
+.container-feature {
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 60px;
+    padding: 0 0 45px 0;
+}
+
+
+.title-dos {
+    font-family: 'Trade Gothic LT Pro', sans-serif;
+    font-size: 38px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 10px;
+}
+
+
+.paragraphs-blanco {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0px;
+    line-height: 1.6;
+    max-width: 1100px;
+    padding: 0 15px 0 15px;
+}
+
+.paragraphs-feature {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin: 0px;
+    line-height: 1.6;
+    max-width: 1100px;
+}
+
+.feature-section {
+    padding: 0 45px 0 45px;
+}
+
+.iconos, .iconouno, .iconodos, .iconotres {
+    width: 29px;
+    margin: 25px 0 10px 0;
+}
+
+h2 {
+    font-family: 'Trade Gothic LT Pro', sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin: 15px 0 0 0;
+}
+
+.resaltado-dos {
+    color: #FFA900; 
+    line-height: 0.5; /* interlineado */
+  }
+
+.imagenpc {
+    width: 150px; 
+    height: auto;
+}
+
+
+@media (max-width: 750px) {
+    .container-feature {
+        flex-direction: column;
+        margin-bottom: 45px;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+
+
+
+
+
