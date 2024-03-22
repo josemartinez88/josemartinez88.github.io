@@ -237,12 +237,12 @@ body{
 
 
 .container-general {
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 
 .container-blanco {
-    background-color: white;
+    background-color: #FFFFFF;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -253,7 +253,7 @@ body{
 }
 
 .container-feature {
-    background-color: white;
+    background-color: #FFFFFF;
     width: 100vw;
     display: flex;
     justify-content: center;
